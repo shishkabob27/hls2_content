@@ -1,0 +1,4 @@
+*.vtex_c
+*.generated.*
+*.vmdl_c
+*.vsnd_c
