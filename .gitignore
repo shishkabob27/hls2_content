@@ -2,3 +2,4 @@
 *.generated.*
 *.vmdl_c
 *.vsnd_c
+*.vmat_c
