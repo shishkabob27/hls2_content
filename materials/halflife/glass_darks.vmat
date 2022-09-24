@@ -2,26 +2,39 @@
 
 Layer0
 {
-	shader "complex.vfx"
+	shader "glass.vfx"
 
 	//---- Translucent ----
-	F_ALPHA_TEST 1
+	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/halflife/_duct_vnt.tga"
+	TextureColor "materials/halflife/glass_darks.tga"
+
+	//---- Emissive ----
+	g_flEmissiveEdgeColorFalloff "3.000"
+	g_flEmissiveEdgeColorThickness "0.100"
+	g_flEmissiveStrength "0.500"
+	g_vEmissiveColor "[0.000000 0.000000 0.000000 0.000000]"
+	g_vEmissiveEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
 
 	//---- Fog ----
-	g_bFogEnabled "1"
+	g_bAvoidDoubleFogging "1"
+	g_flGlassFogExtinctionAmount "0.000"
+
+	//---- Glass Color ----
+	g_flEdgeColorFalloff "3.000"
+	g_flEdgeColorMaxOpacity "0.500"
+	g_flEdgeColorThickness "0.100"
+	g_vEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
+	GlassTintColor "materials/default/default_color.tga"
 
 	//---- Lighting ----
 	g_flDirectionalLightmapMinZ "0.050"
@@ -34,7 +47,7 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/default/default_rough.tga"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -44,7 +57,6 @@ Layer0
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
 	//---- Translucent ----
-	g_flAlphaTestReference "0.500"
-	g_flAntiAliasedEdgeStrength "1.000"
-	TextureTranslucency "materials/halflife/_duct_vnt_trans.tga"
+	g_flOpacityScale "0.250"
+	TextureTranslucency "materials/default/default_trans.tga"
 }
