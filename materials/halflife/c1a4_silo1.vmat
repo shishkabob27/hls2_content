@@ -12,7 +12,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/halflife/c2a1_w1.tga"
+	TextureColor "materials/default/default_color.tga"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -31,7 +31,7 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
+	TextureRoughness "materials/default/default_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
