@@ -7,7 +7,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	WaveAlpha "0.500"
+	WaveAlpha "0.700"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -37,6 +37,6 @@ Layer0
 
 	//---- Wave ----
 	WaveSize "1.000"
-	WaveSpeed "1.000"
+	WaveSpeed "2.400"
 	WaveStrength "1.000"
 }
