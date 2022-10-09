@@ -4,6 +4,11 @@ Layer0
 {
 	shader "complex.vfx"
 
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
@@ -37,6 +42,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "tile"
+		PhysicsSurfaceProperties "hl_tile"
 	}
 }
