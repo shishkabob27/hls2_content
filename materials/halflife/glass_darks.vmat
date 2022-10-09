@@ -12,7 +12,7 @@ Layer0
 	TextureMetalness "materials/default/default_metal.tga"
 	TextureNormal "materials/default/default_normal.tga"
 	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
-	TextureTranslucency "materials/default/default_trans.tga"
+	TextureTranslucency "[0.250000 0.250000 0.250000 0.000000]"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
