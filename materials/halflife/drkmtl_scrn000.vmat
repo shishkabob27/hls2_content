@@ -40,7 +40,7 @@ Layer0
 	g_flAnimationFrame "0.000"
 	g_flAnimationTimeOffset "0.000"
 	g_flAnimationTimePerFrame "0.100"
-	g_nNumAnimationCells "4"
+	g_nNumAnimationCells "3"
 	g_vAnimationGrid "[2 2]"
 
 	//---- Texture Coordinates ----
