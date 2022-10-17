@@ -25,7 +25,7 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.118"
+	g_flMetalness "0.554"
 
 	//---- Normal ----
 	TextureNormal "materials/default/default_normal.tga"
