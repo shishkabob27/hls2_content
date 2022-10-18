@@ -38,7 +38,7 @@ Layer0
 	TextureNormal "materials/halflife/c1a1_flr2c_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "[0.300000 0.300000 0.300000 0.000000]"
+	TextureRoughness "[0.250000 0.250000 0.250000 0.000000]"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
