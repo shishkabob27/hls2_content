@@ -4,6 +4,11 @@ Layer0
 {
 	shader "complex.vfx"
 
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
@@ -23,7 +28,7 @@ Layer0
 	g_flMetalness "0.000"
 
 	//---- Normal ----
-	TextureNormal "materials/default/default_normal.tga"
+	TextureNormal "materials/halflife/-0c2a4e_w1_normal.tga"
 
 	//---- Roughness ----
 	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
