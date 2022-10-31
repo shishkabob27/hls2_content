@@ -3,6 +3,7 @@
   "Type": "content",
   "Org": "shishkabob",
   "Ident": "hls2_content",
+  "Tags": null,
   "Schema": 1,
   "HasAssets": true,
   "AssetsPath": "",
