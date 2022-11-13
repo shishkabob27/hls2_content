@@ -4,6 +4,9 @@ Layer0
 {
 	shader "complex.vfx"
 
+	//---- Detail Texture ----
+	F_DETAIL_TEXTURE 2 // Overlay
+
 	//---- Normal ----
 	F_SCALE_NORMAL_MAP 1
 
@@ -20,6 +23,15 @@ Layer0
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	TextureColor "materials/halflife/c2a4e_w1b.tga"
 
+	//---- Detail Texture ----
+	g_flDetailBlendFactor "1.000"
+	g_flDetailBlendToFull "0.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[2.500 2.500]"
+	TextureDetail "materials/detail/detail_noise1.tga"
+	TextureDetailMask "materials/default/default_detailmask.tga"
+
 	//---- Fade ----
 	g_flFadeExponent "1.000"
 
@@ -34,7 +46,7 @@ Layer0
 	g_flMetalness "0.000"
 
 	//---- Normal ----
-	g_flNormalMapScaleFactor "0.400"
+	g_flNormalMapScaleFactor "0.170"
 	TextureNormal "materials/halflife/c2a4e_w1b_normal.tga"
 
 	//---- Roughness ----
