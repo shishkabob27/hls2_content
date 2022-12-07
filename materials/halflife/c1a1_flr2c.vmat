@@ -2,13 +2,16 @@
 
 Layer0
 {
-	shader "complex.vfx"
+	shader "complex.shader"
 
 	//---- Detail Texture ----
 	F_DETAIL_TEXTURE 2 // Overlay
 
 	//---- PBR ----
 	F_SPECULAR 1
+
+	//---- Rendering ----
+	F_HIGH_QUALITY_REFLECTIONS_LEGACY_LAYOUT 1
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
