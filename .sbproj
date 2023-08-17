@@ -1,0 +1,17 @@
+{
+  "Title": "HLS2 Content",
+  "Type": "content",
+  "Org": "shishkabob",
+  "Ident": "hls2_content",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "Resources": null,
+  "MenuResources": null,
+  "HasCode": false,
+  "CodePath": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {}
+}
